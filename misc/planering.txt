@@ -4,11 +4,15 @@ Hemsida för att sälja bilar.
 Startsidan (index.html) skall bestå av ett grid med tre knappar längst upp (Hem, sälj din bil, om oss). Under dessa tre knappar kommer det att finnas ett bildgalleri som är uppbyggt av ett grid-system som visar en bild på bilen som säljs och allmän information som år, mil och modell.
 
 Lista på sidtyper: 
-Startsida:Grid
-Bilförsäljningssida:Text+bilder
+Startsida:Grid av bilder + lite mer info om bilar
+Bilförsäljningssida:Text + bilder på bilen
 Sälj din bil:Inmatningsfält
-Om oss:Text+bild
+Om oss:Text + bild
 
 Grid-system (responsive)
 
 skiss för samtliga sidtyper + 1 desktop skiss
+
+Domskript - Göra en CSS slideshow med javascript
+
+Bildbehandling - Jag ska göra så att alla bilder har samma upplösning. Använda spritesheet. Lagermaskar och justeringslagar.
