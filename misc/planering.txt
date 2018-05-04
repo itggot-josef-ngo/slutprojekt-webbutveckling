@@ -16,3 +16,5 @@ skiss för samtliga sidtyper + 1 desktop skiss
 Domskript - Göra en CSS slideshow med javascript
 
 Bildbehandling - Jag ska göra så att alla bilder har samma upplösning. Använda spritesheet. Lagermaskar och justeringslagar.
+
+SIDTYPER SCREENSHOT: https://i.gyazo.com/83a0ae2a9e3f6b64d8a6e141b0e5d55b.png
