@@ -1,20 +1,20 @@
-mobile first - använd stasis
+mobile first - anvï¿½nd stasis
 
-Hemsida för att sälja bilar.
-Startsidan (index.html) skall bestå av ett grid med tre knappar längst upp (Hem, sälj din bil, om oss). Under dessa tre knappar kommer det att finnas ett bildgalleri som är uppbyggt av ett grid-system som visar en bild på bilen som säljs och allmän information som år, mil och modell.
+Hemsida fï¿½r att sï¿½lja bilar.
+Startsidan (index.html) skall bestï¿½ av ett grid med tre knappar lï¿½ngst upp (Hem, sï¿½lj din bil, om oss). Under dessa tre knappar kommer det att finnas ett bildgalleri som ï¿½r uppbyggt av ett grid-system som visar en bild pï¿½ bilen som sï¿½ljs och allmï¿½n information som ï¿½r, mil och modell.
 
-Lista på sidtyper: 
+Lista pï¿½ sidtyper: 
 Startsida:Grid av bilder + lite mer info om bilar
-Bilförsäljningssida:Text + bilder på bilen
-Sälj din bil:Inmatningsfält
+Bilfï¿½rsï¿½ljningssida:Text + bilder pï¿½ bilen
+Sï¿½lj din bil:Inmatningsfï¿½lt
 Om oss:Text + bild
 
 Grid-system (responsive)
 
-skiss för samtliga sidtyper + 1 desktop skiss
+skiss fï¿½r samtliga sidtyper + 1 desktop skiss
 
-Domskript - Göra en CSS slideshow med javascript
+Domskript - Gï¿½ra en CSS slideshow med javascript
 
-Bildbehandling - Jag ska göra så att alla bilder har samma upplösning. Använda spritesheet. Lagermaskar och justeringslagar.
+Bildbehandling - Jag ska gï¿½ra sï¿½ att alla bilder har samma upplï¿½sning. Anvï¿½nda spritesheet. Lagermaskar och justeringslagar.
 
 SIDTYPER SCREENSHOT: https://i.gyazo.com/83a0ae2a9e3f6b64d8a6e141b0e5d55b.png
