@@ -106,8 +106,10 @@ input {
 
 .omoss h4 {
   text-align:center;
-  margin-top:10px;
-  font-size:4vw;
+  align-content:center;
+  justify-content:center;
+  padding-top:3vh;
+  font-size:4.3vw;
   margin:3vw;
 }
 
