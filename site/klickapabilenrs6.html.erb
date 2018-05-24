@@ -1,0 +1,52 @@
+<!-- Info om bilen -->
+<section class="sellpage">
+
+
+<div class="slideshow">
+  <img class="slides" src="./img/audirs6.jpg" style="width:90%">
+  <img class="slides" src="./img/bmwm3.jpg" style="width:90%">
+</div>
+
+<div class="rs6">
+    <h2>Audi RS6</h2>
+    <h3>Mil: 1500</h3>
+    <h3>HK: 603</h3>
+    <h3>År: 2010</h3>
+    <h3>Vridmoment: 700Nm</h3>
+    <h3>Bränsle: Bensin</h3>
+    <h3>Växellåda: Automatisk (rattpaddlar)</h3>
+    <h3>Utsläppsklass: Euro 6</h3>
+    <br>
+    <div class="popup" onclick="popUp()">Kontaka säljare
+    <span class="popuptext" id="kontakt">Telefonnummer: 076 02 93 001</span>
+</div>
+</div>
+
+
+
+<script>
+var slideIndex = 0;
+automaticslideshow();
+
+function automaticslideshow() {
+    var i;
+    var x = document.getElementsByClassName("slides");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none"; 
+    }
+    slideIndex++;
+    if (slideIndex > x.length) {slideIndex = 1} 
+    x[slideIndex-1].style.display = "block"; 
+    setTimeout(automaticslideshow, 1500);
+}
+
+
+
+// When the user clicks on <div>, open the popup
+function popUp() {
+    var popup = document.getElementById("kontakt");
+    popup.classList.toggle("show");
+}
+</script>
+
+</section>
