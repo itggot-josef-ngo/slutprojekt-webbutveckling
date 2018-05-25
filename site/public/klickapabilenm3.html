@@ -1,0 +1,84 @@
+<!-- Layout (header) -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sälj din bil!</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" href="favicon.png" type="image/png" />
+</head>
+<body>
+    <div class="container">
+            <nav class="header">
+                    <ul>
+                      <li>
+                        <a href="./index.html">  Hem  </a>
+                      </li>
+                      <li>
+                        <a href="./salj.html">  Sälj  </a>
+                      </li>
+                      <li>
+                        <a href="./omoss.html">Om oss</a>
+                      </li>
+                    </ul>
+            </nav>
+            <main>
+                <!-- Info om bilen -->
+<section class="sellpage">
+
+
+<div class="slideshow">
+  <img class="slides" src="./img/bmwm3.jpg" style="width:90%">
+  <img class="slides" src="./img/bmwm3-2.jpg" style="width:90%">
+  <img class="slides" src="./img/bmwm3-3.jpg" style="width:90%">
+</div>
+
+<div class="rs6">
+    <h2>BMW M3</h2>
+    <h3>Mil: 2000</h3>
+    <h3>HK: 435</h3>
+    <h3>År: 2015</h3>
+    <h3>Vridmoment: 658Nm</h3>
+    <h3>Bränsle: Bensin</h3>
+    <h3>Växellåda: Automatisk (rattpaddlar)</h3>
+    <h3>Utsläppsklass: Euro 6</h3>
+    <br>
+    <div class="popup" onclick="popUp()">Kontaka säljare
+    <span class="popuptext" id="kontakt">Telefonnummer: 086 35 94 012</span>
+</div>
+</div>
+
+
+
+<script>
+var slideIndex = 0;
+automaticslideshow();
+
+function automaticslideshow() {
+    var i;
+    var x = document.getElementsByClassName("slides");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none"; 
+    }
+    slideIndex++;
+    if (slideIndex > x.length) {slideIndex = 1} 
+    x[slideIndex-1].style.display = "block"; 
+    setTimeout(automaticslideshow, 1500);
+}
+
+
+
+// When the user clicks on <div>, open the popup
+function popUp() {
+    var popup = document.getElementById("kontakt");
+    popup.classList.toggle("show");
+}
+</script>
+
+</section>
+            </main>
+    </div>
+</body>
+</html>
