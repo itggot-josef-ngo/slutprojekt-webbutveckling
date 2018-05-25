@@ -188,7 +188,7 @@ input {
 
 }
 
-@media (min-width: 850px) {
+@media (min-width: 850px) and (max-width: 1299px) {
   .boxes {
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     grid-gap:30px;
@@ -207,14 +207,14 @@ input {
   }
 }
 
-@media (min-width:1300px) {
+@media (min-width:1300px) and (max-width: 4000px) {
   .boxes {
     grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
     grid-gap:2vw;
   }
 
   .boxes div {
-    height:100vh;
+    height:50vh;
   }
 
   h3 {
